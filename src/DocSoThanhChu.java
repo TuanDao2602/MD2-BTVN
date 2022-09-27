@@ -8,99 +8,100 @@ public class DocSoThanhChu {
         int hangTram = num /100;
         int hangChuc = (num %100)/10;
         int hangDonVi = (num%10);
+        String chuoiIn = "";
 
         switch (hangTram){
             case 1:
-                System.out.println("một trăm");
+                chuoiIn = ("một trăm");
                 break;
             case 2:
-                System.out.println("hai trăm");
+                chuoiIn = ("hai trăm");
                 break;
             case 3:
-                System.out.println("ba trăm");
+                chuoiIn = ("ba trăm");
                 break;
             case 4:
-                System.out.println("Bốn trăm");
+                chuoiIn = ("Bốn trăm");
                 break;
             case 5:
-                System.out.println("Năm trăm");
+                chuoiIn = ("Năm trăm");
                 break;
             case 6:
-                System.out.println("Sáu trăm");
+                chuoiIn = ("Sáu trăm");
                 break;
             case 7:
-                System.out.println("Bảy trăm");
+                chuoiIn = ("Bảy trăm");
                 break;
             case 8:
-                System.out.println("Tám trăm");
+                chuoiIn = ("Tám trăm");
                 break;
             case 9:
-                System.out.println("Chín trăm");
+                chuoiIn = ("Chín trăm");
                 break;
 
 
         }switch (hangChuc){
-            case 0:
-                System.out.println("Linh");
-                break;
+//            case 0:
+//                System.out.println("Linh");
+//                break;
             case 1:
-                System.out.println("mười");
+                chuoiIn += (" mười");
                 break;
             case 2:
-                System.out.println("hai mươi");
+                chuoiIn += (" hai mươi");
                 break;
             case 3:
-                System.out.println("ba mươi");
+                chuoiIn += (" ba mươi");
                 break;
             case 4:
-                System.out.println("bốn mươi");
+                chuoiIn += (" bốn mươi");
                 break;
             case 5:
-                System.out.println("năm mươi");
+                chuoiIn += (" năm mươi");
                 break;
             case 6:
-                System.out.println("sáu mươi");
+                chuoiIn += (" sáu mươi");
                 break;
             case 7:
-                System.out.println("bảy mươi");
+                chuoiIn += (" bảy mươi");
                 break;
             case 8:
-                System.out.println("tám mươi");
+                chuoiIn += (" tám mươi");
                 break;
             case 9:
-                System.out.println("chín mươi");
+                chuoiIn += (" chín mươi");
                 break;
 
         }switch (hangDonVi){
             case 1:
-                System.out.println("một");
+                chuoiIn += (" một  đơn vị");
                 break;
             case 2:
-                System.out.println("hai");
+                chuoiIn += (" hai đơn vị ");
                 break;
             case 3:
-                System.out.println("ba");
+                chuoiIn += (" ba đơn vị");
                 break;
             case 4:
-                System.out.println("bốn");
+                chuoiIn += (" bốn đơn vị");
                 break;
             case 5:
-                System.out.println("năm");
+                chuoiIn += (" năm đơn vị");
                 break;
             case 6:
-                System.out.println("sáu");
+                chuoiIn += (" sáu đơn vị");
                 break;
             case 7:
-                System.out.println("bảy");
+                chuoiIn += (" bảy đơn vị");
                 break;
             case 8:
-                System.out.println("tám");
+                chuoiIn += (" tám đơn vị");
                 break;
             case 9:
-                System.out.println("chín");
+                chuoiIn += (" chín đơn vị");
                 break;
         }
-        System.out.println("số bạn nhập đọc là : " );
+        System.out.println("số bạn nhập đọc là :  " + chuoiIn );
 
     }
 }
